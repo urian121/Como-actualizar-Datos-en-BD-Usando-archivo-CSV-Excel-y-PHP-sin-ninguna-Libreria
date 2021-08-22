@@ -36,7 +36,7 @@
 <div class="container mb-5">
 
 <h3 class="text-center">
-    Cómo actualizar Datos en BD Usando archivo CSV con PHP sin ninguna Libreria Fácil
+    Cómo actualizar <span style="color: #777;"> Datos-Registros</span> en BD Usando archivo CSV con PHP sin ninguna Libreria Fácil
 </h3>
 <hr>
 

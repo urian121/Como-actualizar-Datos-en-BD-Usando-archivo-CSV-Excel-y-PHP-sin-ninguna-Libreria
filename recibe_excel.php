@@ -40,8 +40,6 @@ if ( $cantidadDuplicidad == 0 ) {
  * que viene desde el archivo CSV.
  * ***********************************/
     $updateData =  ("UPDATE productos SET 
-        producto='" .$producto. "',
-        codigo='" .$codigo. "',
         cantidad='" .$cantidad. "'  
        
         WHERE codigo='".$codigo."'
