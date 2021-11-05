@@ -8,16 +8,9 @@
   <title>Cómo actualizar Datos en BD Usando archivo CSV con PHP sin ninguna Libreria Fácil :: WebDeveloper Urian Viera</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/cargando.css">
   <link rel="stylesheet" type="text/css" href="css/cssGenerales.css">
 </head>
 <body>
-
-<div class="cargando">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
-</div>
-
 
 <nav class="navbar navbar-expand-lg navbar-light navbar-dark fixed-top" style="background-color: #563d7c !important;">
     <ul class="navbar-nav mr-auto collapse navbar-collapse">
@@ -102,14 +95,6 @@
 <script src="js/jquery.min.js"></script>
 <script src="'js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(window).load(function() {
-            $(".cargando").fadeOut(500);
-        });      
-});
-</script>
-
+    
 </body>
 </html>
